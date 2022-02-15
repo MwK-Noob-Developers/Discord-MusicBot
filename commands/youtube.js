@@ -85,13 +85,7 @@ __**[Join YouTube Together](https://discord.com/invite/${Invite.code})**__
           "YouTube Together",
           "https://cdn.discordapp.com/emojis/749289646097432667.png?v=1"
         )
-        .setColor("#FF0000").setDescription(`
-Using **YouTube Together** you can watch YouTube with your friends in a Voice Channel. Click *Join YouTube Together* to join in!
-
-__**[Join YouTube Together](https://discord.com/invite/${Invite.code})**__
-
-⚠ **Note:** This only works in Desktop
-`);
+        .setColor("#FF0000").setDescription(``);
       interaction.send(embed.toJSON());
     },
   },
